@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Sidebar from './Components/Sidebar/Sidebar';
 import Backdrop from './Components/Backdrop/Backdrop';
+import SignupForm from './Components/SignupForm/SignupForm';
 
 export default class App extends Component {
 
@@ -37,6 +38,7 @@ export default class App extends Component {
         <Sidebar show={this.state.sidebarOpen}/>
         {backdrop}
        </div>
+       <SignupForm/>
       </div>
     )
   }
